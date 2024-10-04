@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background:white
+}
+.continer{
+    display: flex;
+   flex-wrap: wrap;
+    
+}
+.continer div{
+    border: 6px blueviolet solid;
+    width: 150px;
+    height: 150px;
+   background-color: white;
+}
+#box1{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+   background-color:rgb(148, 90, 203);
+  transform: rotate(0deg);
+   gap:20;
+   margin:3%;
+}
+#box1:hover{
+    transform: rotate(45deg);
+    transition:3s;
+}
+
+#box2{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 1;
+    background-color:rgb(148, 90, 203);
+    transform: skew(0deg, 0deg);
+     margin: 3%;
+}
+#box2:hover{
+    transform: scaleY(0.5); 
+    transition: 3s;
+}
+
+#box3{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 2;
+    background-color:rgb(148, 90, 203);
+   margin: 3%;
+     
+}
+#box3:hover{
+    transform: scaleX(0.5);
+    transition: 3s;
+}
+#box4{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 4;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box4:hover{
+    transform:scale3d(1.3, 1.3, 1.3);
+    transition: 3s;
+}
+#box5{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 5;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box5:hover{
+   
+    transform:scaleX(2);
+    transition: 3s;
+}
+#box6{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 6;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box6:hover{
+   
+    transform:translateX(50px);
+    transition: 3s;
+}
+#box7{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 7;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box7:hover{
+    transform: translate(3ch, 3mm);
+    transition: 3s;
+}
+#box8{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 8;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box8:hover{
+    transform: skewY(-0.06turn);
+    transition: 3s;
+}
+#box9{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 9;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box9:hover{
+    transform:skewY(0.06turn);
+    transition: 3s;
+}
+#box10{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 10;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box10:hover{
+    transform:scaleY(2);
+    transition: 3s;
+}
+#box11{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 11;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box11:hover{
+    transform:  translateY(50px);
+    transition: 3s;
+}
+#box12{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 12;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box12:hover{
+    transform: perspective(600px) skewY(0.08turn);
+    transition: 3s;
+}
+#box13{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 13;
+    background-color: rgb(148, 90, 203);
+    margin:3%;
+}
+#box13:hover{
+    transform: perspective(500px) rotateY(50deg);
+    transition: 3s;
+}
+#box14{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 14;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box14:hover{
+    transform: perspective(500px) rotateX(50deg);
+    transition: 3s;
+}
+#box15{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 15;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+    
+}
+#box15:hover{
+    
+    transform-origin:right;
+    transform: rotate(15deg);
+    transition: 3s;
+}
+#box16{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 16;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box16:hover{
+    transform-origin: bottom;
+    transform: rotate(15deg);
+    transition: 3s;
+}
+#box17{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 17;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box17:hover{
+    transform-origin: bottom center;
+     
+      transform: rotateX(90deg);
+    transition: 3s; 
+}
+#box18{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 18;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box18:hover{
+    transform-origin: top center;
+    transform: rotateX(90deg);
+    transition: 3s;
+}
+#box19{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 19;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+}
+#box19:hover{
+    transform-origin: left center;
+    transform:rotateY(90deg);
+    transition: 3s;
+}
+#box20{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 20;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+
+}
+#box20:hover{
+   transform-origin: left;
+   transform: scaleX(2);
+  
+    transition: 3s;
+
+    
+}
+#box21{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 21;
+    background-color: rgb(148, 90, 203);
+    margin: 3%;
+    
+}
+#box21:hover{
+    transform-origin: right;
+    transform: scaleX(2);
+    transition: 3s;
+}
+#box22{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 22;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box22:hover{
+    transform-origin: left;
+    transform:scale3d(1.3, 1.3, 1.3);
+    transition: 3s;
+}
+#box23{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 23;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box23:hover{
+    transform-origin: top;
+    transform:scale3d(1.3, 1.3, 1.3);
+    transition: 3s;
+}
+#box24{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 24;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box24:hover{
+    transform-origin: right;
+    transform: scaleX(0.5) perspective(200px);
+    transition: 3s;
+}
+#box25{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 25;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box25:hover{
+    transform-origin: top;
+    transform: scaleY(2);
+   
+     transition: 3s;
+}
+#box26{
+    border: 3px white solid;
+    width: 150px;
+    height: 150px;
+    margin: 26;
+    background-color:rgb(148, 90, 203);
+    margin: 3%;
+}
+#box26:hover{
+    transform-origin:bottom;
+    transform: scaleY(2);
+   
+     transition: 3s;
+}
+
